@@ -4,16 +4,16 @@
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>{{ page.title }}</title>
-	<link rel="stylesheet" href="assets/css/lib.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<title>jQuery Easy Background Resize Plug-In</title>
+	<link rel="stylesheet" href="css/lib.css" type="text/css" media="screen" title="no title" charset="utf-8">
 	<!-- Google Hosted jQuery Core -->
 	<script src="http://www.google.com/jsapi"></script>
 	<script>google.load("jquery", "1");</script>
-	<script src="assets/js/jquery.ez-bg-resize.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.ez-bg-resize.js" type="text/javascript" charset="utf-8"></script>
 	<script>
 		$(document).ready(function() {
 			$("body").ezBgResize({
-				img     : "assets/image/bg10.jpg", // Relative path example.  You could also use an absolute url (http://...).
+				img     : "image/bg10.jpg", // Relative path example.  You could also use an absolute url (http://...).
 				opacity : 1, // Opacity. 1 = 100%.  This is optional.
 				center  : false // Boolean (true or false). This is optional. Default is true.
 			});
@@ -22,9 +22,8 @@
 </head>
 <body>
 	<div id="container">
-		<h1>Derp Resources Enterprise (002202051-K)</h1>
-		<p>5, Jalan 15/3G, Seksyen 15, 43650 Bandar Baru Bangi, Selangor.</p>
-		<!--
+		<h1>jQuery Easy Background Resize</h1>
+		<p>Resizable full-browser background image using jQuery.  Implementation requires no CSS.  Keeps the images aspect ratio in tact!</p>
 		<p class="title">Example Example jQuery Code</p>
 		<p class="code">
 			$.ezBgResize({<br />
@@ -41,22 +40,5 @@
 	<div id="credit">
 		Background image courtesy of: <a href="http://www.socwall.com/browse/index.php?search=Bear+Country">socwall.com</a>
 	</div>
-	-->
-	
-	<!--
-	<p class="title">Contact Us</p>
-	<p><iframe src="https://www.facebook.com/plugins/registration?
-             client_id=139644509535827&fb_only=true&fb_register=true&target=_parent&
-             redirect_uri=http%3A%2F%2Fderp.com.my%2F&
-             fields=[{'name':'name'},{'name':'email'},{'name':'phone','description':'Phone Number','type':'text'},{'name':'content','description':'Content','type':'text'},{'name':'captcha'}]"
-        scrolling="auto"
-        frameborder="yes"
-        style="border:none"
-        allowTransparency="false"
-        width="100%"
-        height="400">
-	</iframe></p>
-	-->
-	<p>contact [at] derp.com.my</p>
 </body>
 </html>
